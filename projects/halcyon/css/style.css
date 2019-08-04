@@ -551,13 +551,13 @@ input[type="radio"] {
   padding: 0;
 }
 .tasks__logo--design {
-  background: url("/img/laptop.png") center no-repeat;
+  background: url("../img/laptop.png") center no-repeat;
 }
 .tasks__logo--dev {
-  background: url("/img/code.png") center no-repeat;
+  background: url("../img/code.png") center no-repeat;
 }
 .tasks__logo--love {
-  background: url("/img/heart.png") center no-repeat;
+  background: url("../img/heart.png") center no-repeat;
 }
 .tasks__title {
   position: relative;
@@ -623,17 +623,17 @@ input[type="radio"] {
   transition: transform 0.8s ease, -webkit-transform 0.8s ease;
 }
 .services__slide--first {
-  background-image: url("/img/iphone5mock.png");
+  background-image: url("../img/iphone5mock.png");
   background-position: -214px 0;
   background-repeat: no-repeat;
 }
 .services__slide--second {
-  background-image: url("/img/iphone5mock.png");
+  background-image: url("../img/iphone5mock.png");
   background-position: -214px 0;
   background-repeat: no-repeat;
 }
 .services__slide--third {
-  background-image: url("/img/iphone5mock.png");
+  background-image: url("../img/iphone5mock.png");
   background-position: -214px 0;
   background-repeat: no-repeat;
 }
