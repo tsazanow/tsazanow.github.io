@@ -1,0 +1,88 @@
+.tasks {
+  width: 1140px;
+  min-height: 631px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.tasks__slogan {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.tasks__arrow {
+  margin-bottom: 85px;
+}
+
+.tasks__list {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.tasks__item {
+  width: 360px;
+  min-height: 400px;
+}
+
+.tasks__logo {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  padding: 0;
+
+  &--design {
+    background: url("../img/laptop.png") center no-repeat;
+  }
+
+  &--dev {
+    background: url("../img/code.png") center no-repeat;
+  }
+
+  &--love {
+    background: url("../img/heart.png") center no-repeat;
+  }
+}
+
+.tasks__title {
+  position: relative;
+  margin-bottom: 50px;
+  margin-top: 44px;
+
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #353535;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 33px;
+    height: 3px;
+    left: 50%;
+    bottom: -26px;
+    margin-left: -16px;
+
+    background-color: #3dc9b3;
+  }
+}
+
+.tasks__description {
+  width: 358px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: #8c9398;
+}

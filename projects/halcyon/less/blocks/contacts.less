@@ -1,0 +1,138 @@
+.contacts {
+  min-height: 672px;
+
+  background-color: #f3f5f8;
+}
+
+.contacts__slogan {
+  width: 165px;
+  margin: 0 auto;
+  margin-bottom: 22px;
+  padding-top: 120px;
+
+  font-family: @main-font;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2.25px;
+  text-align: center;
+  color: #353535;
+}
+
+.contacts__arrow {
+  margin-bottom: 91px;
+
+  &::before,
+  &::after {
+    width: 234px;
+  }
+}
+
+.contacts__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 153px;
+  margin: 0 auto;
+  margin-bottom: 87px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contacts__item {
+  box-sizing: border-box;
+  width: 360px;
+  height: 153px;
+  padding: 29px 68px;
+  padding-top: 61px;
+
+  background-color: #fff;
+}
+
+.contacts__item-title {
+  width: 90px;
+  margin: 0 auto;
+  margin-bottom: 22px;
+
+  font-family: @main-font;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  text-align: center;
+  color: #3dc9b3;
+}
+
+.contacts__item-title--address {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: -30px;
+    left: 50%;
+    margin-left: -6px;
+    width: 12px;
+    height: 18px;
+
+    background-image: url("../img/map-marker-alt-solid.svg");
+  }
+}
+
+.contacts__item-title--phone {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: -30px;
+    left: 50%;
+    margin-left: -6px;
+    width: 12px;
+    height: 18px;
+
+    background-image: url("../img/mobile-alt-solid.svg");
+  }
+}
+
+.contacts__item-title--mail {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: -32px;
+    left: 42px;
+    margin-left: -7px;
+    width: 15px;
+    height: 16px;
+
+    background-image: url("../img/paper-plane-solid-black.svg");
+  }
+}
+
+.contacts__item-text {
+  width: 200px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.contacts__phone,
+.contacts__mail,
+.contacts__address {
+  font-family: @main-font;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  color: #8c9398;
+  text-decoration: none;
+}
+
+.contacts__social {
+  margin: 0 auto;
+}

@@ -1,0 +1,36 @@
+.arrow {
+  position: relative;
+  display: block;
+  width: 15px;
+  height: 13px;
+  margin: 0 auto;
+  padding: 0;
+
+  background-image: url("../img/arrow-down.png");
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50px;
+    width: 234px;
+    height: 2px;
+    margin-top: -2px;
+
+    border: none;
+    background-image: url("../img/dotted-line.png");
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 50px;
+    width: 234px;
+    height: 2px;
+    margin-top: -2px;
+
+    border: none;
+    background-image: url("../img/dotted-line.png");
+  }
+}

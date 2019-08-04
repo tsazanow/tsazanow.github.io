@@ -1,0 +1,110 @@
+.subscription {
+  width: auto;
+  min-height: 453px;
+
+  background-color: #282b31;
+  background-image: url("../pict/bg-subs.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px 453px;
+  background-position: center;
+}
+
+.subscription__wrapper {
+  position: relative;
+}
+
+.subscription__title {
+  position: relative;
+  width: 331px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-top: 168px;
+
+  font-family: @main-font;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2.25px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 123px;
+    left: 154px;
+    width: 25px;
+    height: 26px;
+
+    background-image: url("../img/paper-plane-solid.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.subscription__form {
+  display: flex;
+  align-items: center;
+  width: 555px;
+  min-height: 130px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.subscription__mail {
+  box-sizing: border-box;
+  width: 352px;
+  height: 65px;
+  margin-left: auto;
+  margin-right: 7px;
+  padding: 10px;
+
+  font-family: @main-font;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.subscription__mail:hover,
+.subscription__mail:focus {
+  border: 1px solid #3DC9B3;
+}
+
+.subscription__btn {
+  width: 97px;
+  height: 65px;
+  margin-right: auto;
+
+  font-family: @main-font;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 2.25px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  border: 1px solid rgb(61,201,179);
+  background-color: rgb(61,201,179);
+  cursor: pointer;
+}
+
+.subscription__btn:hover {
+  border: 1px solid rgba(61,201,179,1);
+  background-color: rgba(61,201,179,0.7);
+}
+
+.subscription__btn:active {
+  border: 1px solid rgba(61,201,179,1);
+  background-color: rgba(61,201,179,0.3);
+}
+
+.subscription__toggle {
+  position: absolute;
+  content: "";
+  bottom: -148px;
+  left: 561px;
+
+}

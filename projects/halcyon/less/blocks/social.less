@@ -1,0 +1,45 @@
+.social {
+  width: 165px;
+  min-height: 60px;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+
+  list-style: none;
+}
+
+.social__item {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+
+  background-color: #000;
+  border-radius: 50%;
+
+  &:nth-child(2) {
+    margin: 0 7px;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #3dc9b3;
+  }
+
+  &--contacts:nth-child(2) {
+    margin: 0 17px;
+  }
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.social__link svg {
+  margin: 0 auto;
+
+  fill: #ffffff;
+}
