@@ -379,7 +379,7 @@ input[type="radio"] {
   height: 13px;
   margin: 0 auto;
   padding: 0;
-  background-image: url("/img/arrow-down.png");
+  background-image: url("../img/arrow-down.png");
 }
 .arrow::before {
   position: absolute;
@@ -390,7 +390,7 @@ input[type="radio"] {
   height: 2px;
   margin-top: -2px;
   border: none;
-  background-image: url("/img/dotted-line.png");
+  background-image: url("../img/dotted-line.png");
 }
 .arrow::after {
   position: absolute;
@@ -401,7 +401,7 @@ input[type="radio"] {
   height: 2px;
   margin-top: -2px;
   border: none;
-  background-image: url("/img/dotted-line.png");
+  background-image: url("../img/dotted-line.png");
 }
 .page-header {
   width: 100%;
@@ -411,14 +411,13 @@ input[type="radio"] {
   background-color: #dbe0e6;
   background-image: url("../pict/bg-top.jpg");
   background-repeat: no-repeat;
-  /* background-size: 1600px 800px; */
   background-size: cover;
   background-position: center 0;
 }
 .page-header__logo {
   width: 441px;
   margin: 0 auto;
-  margin-top: 155px;
+  margin-top: 154px;
   margin-bottom: 23px;
   padding: 0;
   font-family: "Gotham Rounded - Book", "Arial", sans-serif;
@@ -433,7 +432,7 @@ input[type="radio"] {
   color: #a1a9b0;
 }
 .page-header__description {
-  width: 607px;
+  width: 610px;
   margin: 0 auto;
   margin-bottom: 65px;
   padding: 0;
@@ -501,7 +500,6 @@ input[type="radio"] {
 .about__text {
   width: 749px;
   margin: 0 auto;
-  margin-bottom: 127px;
   font-size: 14px;
   line-height: 30px;
   letter-spacing: 0.14px;
@@ -1063,9 +1061,9 @@ input:nth-of-type(3):checked ~ .controls .controls__title:nth-of-type(3)::after 
   width: auto;
   min-height: 453px;
   background-color: #282b31;
-  background-image: url(../pict/bg-subs.jpg);
+  background-image: url("../pict/bg-subs.jpg");
   background-repeat: no-repeat;
-  background-size: 1600px 453px;
+  background-size: cover;
   background-position: center;
 }
 .subscription__wrapper {
@@ -1092,7 +1090,7 @@ input:nth-of-type(3):checked ~ .controls .controls__title:nth-of-type(3)::after 
   left: 154px;
   width: 25px;
   height: 26px;
-  background-image: url(../img/paper-plane-solid.svg);
+  background-image: url("../img/paper-plane-solid.svg");
   background-repeat: no-repeat;
 }
 .subscription__form {
@@ -1218,7 +1216,7 @@ input:nth-of-type(3):checked ~ .controls .controls__title:nth-of-type(3)::after 
   margin-left: -6px;
   width: 12px;
   height: 18px;
-  background-image: url(../img/map-marker-alt-solid.svg);
+  background-image: url("../img/map-marker-alt-solid.svg");
 }
 .contacts__item-title--phone {
   position: relative;
@@ -1231,7 +1229,7 @@ input:nth-of-type(3):checked ~ .controls .controls__title:nth-of-type(3)::after 
   margin-left: -6px;
   width: 12px;
   height: 18px;
-  background-image: url(../img/mobile-alt-solid.svg);
+  background-image: url("../img/mobile-alt-solid.svg");
 }
 .contacts__item-title--mail {
   position: relative;
@@ -1244,7 +1242,7 @@ input:nth-of-type(3):checked ~ .controls .controls__title:nth-of-type(3)::after 
   margin-left: -7px;
   width: 15px;
   height: 16px;
-  background-image: url(../img/paper-plane-solid-black.svg);
+  background-image: url("../img/paper-plane-solid-black.svg");
 }
 .contacts__item-text {
   width: 200px;

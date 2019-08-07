@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Нёрдс Магазин</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="nav-header">
+      <div class="container clearfix">
+        <nav class="nav">
+          <a href="index.html" class="main-logo"><img src="img/nerds-logo.png" width="160" height="65" alt="Нердс"></a>
+          <ul class="nav-list">
+            <li><a href="index.html">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="catalog.html" class="active">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="cart">
+          <a href="#">Корзина</a>
+        </div>
+      </div>
+    </header>
+    <header class="catalog-header">
+      <div class="container">
+        <h1 class="catalog-title">Магазин готовых шаблонов</h1>
+      </div>
+    </header>
+    <main class="container clearfix">
+      <!-- Левая сторона для фильтров каталога-->
+      <div class="main-leftside">
+        <form action="#" method="post">
+          <h3 class="filter-title range">Стоимость:</h3>
+          <div class="range-filter">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle toggle-min"></div>
+              <div class="toggle toggle-max"></div>
+            </div>
+            <div class="price-filter">
+              <label class="min-price">
+                От<input name="min-price" type="text" value="0">
+              </label>
+              <label class="max-price">
+                До<input name="max-price" type="text" value="15 000">
+              </label>
+            </div>
+          </div>
+          <h3 class="filter-title grid">Сетка:</h3>
+          <div class="filter-kind">
+            <ul>
+              <li>
+                <input type="radio" name="grid" value="adaptive" id="grid-1" checked="checked">
+                <label for="grid-1">Адаптивная</label>
+              </li>
+              <li>
+                <input type="radio" name="grid" value="fixed" id="grid-2">
+                <label for="grid-2">Фиксированная</label>
+              </li>
+              <li>
+                <input type="radio" name="grid" value="rubber" id="grid-3">
+                <label for="grid-3">Резиновая</label>
+              </li>
+            </ul>
+          </div>
+          <h3 class="filter-title feature">Особенности:</h3>
+            <div class="filter-feature">
+              <ul>
+                <li>
+                  <input type="checkbox" name="slider" id="feature-1" checked="checked">
+                  <label for="feature-1">Слайдер</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="advantages" id="feature-2">
+                  <label for="feature-2">Блок преимуществ</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="news" id="feature-3" checked="checked">
+                  <label for="feature-3">Новости</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="gallery" id="feature-4">
+                  <label for="feature-4">Галерея</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="cart" id="feature-5">
+                  <label for="feature-5">Корзина</label>
+                </li>
+              </ul>
+            </div>
+            <button type="submit" class="button grey">Показать</button>
+        </form>
+      </div>
+        <!-- Правая сторона каталога-->
+      <div class="main-rightside">
+        <nav class="sort clearfix">
+          <h3 class="sort-left">Сортировать:</h3>
+            <div class="sort-right">
+              <a class="active" href="#">По цене</a>
+              <a href="#">По типу</a>
+              <a href="#">По названию</a>
+              <a class="down">вниз</a>
+              <a class="up">вверх</a>
+            </div>
+        </nav>
+        <div class="samples clearfix">
+          <ul class="samples-item">
+            <li>
+              <div class="window-header"></div>
+              <div class="sample-image">
+                <img src="img/sample1.jpg" width="358" height="576" alt="Sedona">
+              </div>
+              <div class="window-info">
+                <a class="sample-name" href="#"><b>Sedona</b></a>
+                <p>Информационный сайт для туристов</p>
+                <a href="#" class="button">9000 руб.</a>
+              </div>
+            </li>
+            <li>
+              <div class="window-header"></div>
+              <div class="sample-image">
+                <img src="img/sample2.jpg" width="358" height="576" alt="Pink">
+              </div>
+              <div class="window-info">
+                <a class="sample-name" href="#"><b>Pink app</b></a>
+                <p>Продуктовый лендинг приложение для iOS и Android</p>
+                <a href="#" class="button">9900 руб.</a>
+              </div>
+            </li>
+            <li>
+              <div class="window-header"></div>
+              <div class="sample-image">
+                <img src="img/sample3.jpg" width="358" height="576" alt="barbershop">
+              </div>
+              <div class="window-info">
+                <a class="sample-name" href="#"><b>Barbershop</b></a>
+                <p>Сайт салона красоты. Для мужчин, да</p>
+                <a href="#" class="button">9900 руб.</a>
+              </div>
+            </li>
+            <li>
+              <div class="window-header"></div>
+              <div class="sample-image">
+                <img src="img/sample4.jpg" width="358" height="576" alt="mishka">
+              </div>
+              <div class="window-info">
+                <a class="sample-name" href="#"><b>Mishka</b></a>
+                <p>Интернет-магазин вязаных игрушек</p>
+                <a href="#" class="button">9900 руб.</a>
+              </div>
+            </li>
+            <li>
+              <div class="window-header"></div>
+              <div class="sample-image">
+                <img src="img/sample5.jpg" width="358" height="576" alt="aplus">
+              </div>
+              <div class="window-info">
+                <a class="sample-name" href="#"><b>A Plus</b></a>
+                <p>Лендинг курсов повышения квалификации</p>
+                <a href="#" class="button">9900 руб.</a>
+              </div>
+            </li>
+            <li>
+              <div class="window-header"></div>
+              <div class="sample-image">
+                <img src="img/sample6.jpg" width="358" height="576" alt="kvast">
+              </div>
+              <div class="window-info">
+                <a class="sample-name" href="#"><b>Кваст</b></a>
+                <p>Промо-сайт производителя крафтового кваса</p>
+                <a href="#" class="button">9900 руб.</a>
+              </div>
+            </li>
+          </ul>
+            <!--Навигация по страницам каталога-->
+          <nav class="samples-page clearfix">
+            <div class="samples-page-left">
+              <a href="#" class="page active">1</a>
+              <a href="#" class="page">2</a>
+              <a href="#" class="page">3</a>
+              <a href="#" class="page">Следующая</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </main>
+        <!-- Блок контактов-->
+    <div class="map-image clearfix">
+      <div class="container">
+        <div class="map-contacts">
+          <strong>Nёrds design studio</strong>
+          <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<span>тел. +7 (812) 275-75-75</span></p>
+          <a class="button" href="modal-content.html">Напишите нам</a>
+        </div>
+      </div>
+    </div>
+      <!--Футер-->
+    <footer class="container">
+      <div class="footer-info clearfix">
+        <section class="footer-social">
+          <a href="http://vk.com" class="social-btn social-btn-vk">Вконтакте</a>
+          <a href="http://facebook.com" class="social-btn social-btn-fb">Фэйсбук</a>
+          <a href="http://instagram.com" class="social-btn social-btn-inst">Инстаграм</a>
+        </section>
+        <section class="footer-discount">
+          <h3 class="footer-title">Давайте дружить, это выгодно!</h3>
+          <p>Скидка 10% для друзей из социальных сетей.<p>
+        </section>
+      </div>
+    </footer>
+    <!-- Модальное окно -->
+    <div class="modal-content">
+      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+      <h2 class="modal-content-title">Напишите нам</h2>
+      <form class="modal-form" action="#" method="post">
+        <div class="clearfix">
+          <label class="field"><b>Ваше имя:</b>
+            <input type="text" name="user" placeholder="Представьтесь, пожалуйста">
+          </label>
+          <label class="field"><b>Ваш e-mail:</b>
+            <input type="email" name="email-address" placeholder="Для отправки ответа">
+          </label>
+          <label class="field"><b>Текст письма:</b>
+            <textarea name="comment" placeholder="В свободной форме"></textarea>
+          </label>
+        </div>
+        <button type="submit" class="button btn-send">Отправить</button>
+      </form>
+    </div>
+  </body>
+</html>
