@@ -1,4 +1,4 @@
-## Портфолио верстальщика Артема Сазанова
+## Артем Сазанов, html-верстальщик
 ***
 - ### [Я в Вконтакте](https://vk.com/atemps)
 - ### [Я в Telegram](https://t.me/atemps)
@@ -9,6 +9,10 @@
 - ## [Sedona](https://tsazanow.github.io/projects/sedona/)
 
 - ## [Halcyon landing](https://tsazanow.github.io/projects/halcyon/)
+
+- ## [Pink app](https://tsazanow.github.io/projects/pink/)
+
+- ## [Нердс](https://tsazanow.github.io/projects/nerds/)
 
 
 
