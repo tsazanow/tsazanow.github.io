@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: normal;
   font-display: swap;
-  src: url("/fonts/opensans.woff2") format("woff2"), url("/fonts/opensans.woff") format("woff"); }
+  src: url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff"); }
 
 @font-face {
   font-family: "OpenSans Bold";
@@ -8231,7 +8231,7 @@ img {
   margin: 0 auto;
   padding: 0;
   background-color: azure;
-  background-image: url("/img/bg-header.jpg");
+  background-image: url("../img/bg-header.jpg");
   background-size: cover;
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -8239,7 +8239,7 @@ img {
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3); }
   .page-header--gallery {
     min-height: 400px;
-    background-image: url("/img/bg-gallery.jpg");
+    background-image: url("../img/bg-gallery.jpg");
     background-position: 0 30%; }
 
 .page-header__hero {
@@ -8276,7 +8276,7 @@ img {
   width: 100%;
   margin: 0 auto;
   background-color: bisque;
-  background-image: url("/img/pineapple-cut.png");
+  background-image: url("../img/pineapple-cut.png");
   background-repeat: repeat;
   border-radius: 0 0 15px 15px;
   -webkit-box-shadow: 1px 1px 0 1px rgba(128, 128, 128, 0.5);
@@ -8300,7 +8300,7 @@ img {
   text-decoration: none; }
 
 .main-nav__icon {
-  background-image: url("/img/menu.svg"); }
+  background-image: url("../img/menu.svg"); }
 
 .main-nav__list {
   -ms-flex-wrap: wrap;
@@ -8351,7 +8351,7 @@ img {
   margin: 0 auto;
   padding: 0;
   background-color: #f7aa03;
-  background-image: url("/img/bg-banner.jpg");
+  background-image: url("../img/bg-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 50%;
@@ -8376,7 +8376,7 @@ img {
   margin: 0 auto;
   padding: 0;
   background-color: bisque;
-  background-image: url("/img/pineapple-cut.png");
+  background-image: url("../img/pineapple-cut.png");
   background-repeat: repeat;
   z-index: 40; }
 
@@ -8449,11 +8449,6 @@ img {
 
 .social--footer .social__link svg {
   fill: grey; }
-
-.copyright__developer {
-  margin: 0;
-  margin-top: 20px;
-  padding: 0; }
 
 .classes {
   width: 100%;
@@ -8591,7 +8586,7 @@ img {
   margin: 0;
   padding: 0;
   padding-bottom: 40px;
-  background-image: url("/img/memphis.png");
+  background-image: url("../img/memphis.png");
   background-repeat: repeat;
   -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
@@ -8621,9 +8616,6 @@ img {
 .price__icon {
   display: inline-block;
   margin-left: 5px;
-  background-image: url("/img/ruble-sign.svg");
-  background-position: 0 0;
-  background-repeat: no-repeat;
   width: 12px;
   height: 12px; }
 
@@ -8633,7 +8625,7 @@ img {
   margin: 0;
   padding: 40px 0;
   background-color: #ffffff;
-  background-image: url("/img/pineapple-cut.png");
+  background-image: url("../img/pineapple-cut.png");
   background-repeat: repeat; }
 
 .feedback__quote {
@@ -8711,7 +8703,7 @@ img {
   width: 100%;
   min-height: 300px;
   background-color: bisque;
-  background-image: url("/img/pineapple-cut.png");
+  background-image: url("../img/pineapple-cut.png");
   background-repeat: repeat;
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
@@ -8759,16 +8751,16 @@ img {
   -webkit-box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.3); }
   .slides__item--nanny {
-    background-image: url("/img/nanny.jpg");
+    background-image: url("../img/nanny.jpg");
     background-position: center; }
   .slides__item--education {
-    background-image: url("/img/education.jpg");
+    background-image: url("../img/education.jpg");
     background-position: center; }
   .slides__item--english {
-    background-image: url("/img/eng.jpg");
+    background-image: url("../img/eng.jpg");
     background-position: center; }
   .slides__item--lego {
-    background-image: url("/img/lego-2.jpg");
+    background-image: url("../img/lego-2.jpg");
     background-position: center; }
 
 .slides__indicators {
