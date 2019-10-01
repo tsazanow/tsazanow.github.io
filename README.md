@@ -4,7 +4,7 @@
 - ### [Я в Telegram](https://t.me/atemps)
 - ### [Я в Viber](viber://chat?number=+79114186686)
 
-## Мои работы
+## Мое портфолио
 ***
 - ## [Sedona](https://tsazanow.github.io/projects/sedona/)
 
@@ -13,6 +13,8 @@
 - ## [Pink app](https://tsazanow.github.io/projects/pink/)
 
 - ## [Нердс](https://tsazanow.github.io/projects/nerds/)
+
+- ## [Детский клуб "Динозаврики"](https://dinozavriki-ptz.ru)
 
 
 
